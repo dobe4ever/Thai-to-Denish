@@ -10,8 +10,7 @@ keep_alive_ping()
 # Define the Telegram bot token & user id from the environment variable
 bot_token = os.environ['BOT_TOKEN']
 admins = [
-    os.environ['HELGA_ID'], 
-    os.environ['RASMUS_ID']
+    os.environ['HELGA_ID']
 ]
 bot = Bot(token=bot_token)
 
